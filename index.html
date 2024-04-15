@@ -3,6 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+    // Function to simulate delay
+    function simulateDelay() {
+        var start = Date.now();
+        while (Date.now() - start < 3000); // Adjust the delay time (in milliseconds) as needed
+    }
+    
+    // Call the function to simulate delay when the page loads
+    window.addEventListener('load', simulateDelay);
+</script>
 <script src="script.js"></script>   
 <link rel="stylesheet" href="styles.css">
 <title>bad_website</title>
