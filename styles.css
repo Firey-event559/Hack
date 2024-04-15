@@ -50,3 +50,55 @@ p{
   font-weight: bold;
   font-family: comic;
 }
+h2 {
+  color: rgb(162, 53, 126);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  height: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 7px solid rgba(150, 35, 173, 0.9); 
+  border-radius: 5px;
+}
+
+/* Style form elements */
+input[type="text"],
+input[type="password"],
+button {
+  color: #a0c33f;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #c06565;
+  border-radius: 5px;
+  outline: none;
+}
+label {
+  color: rgb(246, 115, 204);
+}
+
+
+input[type="password"] {
+  background-color: #edf029;
+}
+
+input[type="text"] {
+  background-color: #edf029;
+}
+
+button {
+  background-color: #238325;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5da7e4; /* Changed hover background color */
+}
