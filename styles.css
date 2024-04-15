@@ -1,3 +1,10 @@
+body{
+  margin: 0px;
+  padding: 0px;
+background-color: purple;
+}
+
+
 #runaway-button {
   position: absolute;
   top: 50%;
@@ -6,4 +13,26 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+
+nav {
+  
+  padding: 10px 20px;
+  background-color: yellow;
+
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+ 
+}
+a{
+  color:rgb(224, 249, 1);
+  text-decoration: none;
 }
