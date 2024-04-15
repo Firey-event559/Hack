@@ -5,8 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
 <title>hoofdpagina</title>
+<script>
+    // Function to simulate delay
+    function simulateDelay() {
+        var start = Date.now();
+        while (Date.now() - start < 3000); // Adjust the delay time (in milliseconds) as needed
+    }
+    
+    // Call the function to simulate delay when the page loads
+    window.addEventListener('load', simulateDelay);
+</script>
 </head>
 <body>
+    
     <nav>
         <ul>
             <li><a href="">optie 1</a></li>
@@ -15,6 +26,7 @@
             <li><a href="">optie 4</a></li>
         </ul>
     </nav>
+    
 
 
     <div>
@@ -25,6 +37,8 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti blanditiis laudantium et dolorum 
         consectetur, rerum aspernatur ut cum dolores atque amet. Perferendis doloribus ipsam atque consequuntur eum quam quisquam!</p>
 </div>
+
+
 
 </body>
 </html>
