@@ -51,7 +51,7 @@ p{
   font-family: comic sans ms;
 }
 h2 {
-  color: rgb(162, 53, 126);
+  color: rgb(162, 53, 98);
 }
 * {
   margin: 0;
@@ -61,10 +61,10 @@ h2 {
 
 .container {
   max-width: 500px;
-  height: 300px;
+  height: 200px;
   margin: 50px auto;
   padding: 20px;
-  border: 7px solid rgba(150, 35, 173, 0.9); 
+  border: 7px solid rgba(104, 0, 0, 0.9); 
   border-radius: 5px;
 }
 
@@ -94,7 +94,7 @@ input[type="text"] {
 }
 
 button {
-  background-color: #238325;
+  background-color: #224422;
   color: #fff;
   cursor: pointer;
 }
