@@ -1,19 +1,11 @@
-document
-  .getElementById("runaway-button")
-  .addEventListener("click", function () {
-    var button = this;
-    var newPositionX = Math.random() * (window.innerWidth - button.offsetWidth);
-    var newPositionY =
-      Math.random() * (window.innerHeight - button.offsetHeight);
-
-    button.style.left = newPositionX + "px";
-    button.style.top = newPositionY + "px";
-  });
-
-
-for (let i = 0; i < 1000000; i++) {
-  console.log(i);
-}
- 
-
-
+document.querySelector(".container").addEventListener("submit", function (event) {
+  event.preventDefault(); // Prevent the default form submission
+  
+  var container = this;
+  var newPositionX = Math.random() * (window.innerWidth - container.offsetWidth);
+  var newPositionY = Math.random() * (window.innerHeight - container.offsetHeight);
+  
+  container.style.position = "absolute"; // Ensure container position is absolute
+  container.style.left = newPositionX + "px";
+  container.style.top = newPositionY + "px";
+});
